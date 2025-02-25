@@ -1,0 +1,27 @@
+GET http://localhost:5000/doctors
+
+###
+GET http://localhost:5000/appointments
+
+### 
+POST http://localhost:5000/appointments
+Content-Type: application/json
+
+{
+  "doctorId": "67bd8fbe9433d5e0f3bace0f",
+  "date": "2025-02-25T10:00:00.000Z",
+  "patientName": "vini"
+}
+
+###
+PUT http://localhost:5000/appointments/67bdaa976b97cc1aa0a32d54
+Content-Type: application/json
+
+{
+  "patientName": "vineeth",
+  "status": "completed"
+}
+
+
+###
+DELETE http://localhost:5000/appointments/
