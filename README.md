@@ -4,8 +4,11 @@ This is the backend for the BabySteps appointment booking system, built using No
 
 ## Deployment URL
 
-Backend API is deployed on Render: [https://babysteps-app.onrender.com](https://babysteps-app.onrender.com/doctors)
-https://babysteps-app.onrender.com/appointments
+Backend API is deployed on Render: [https://babysteps-app.onrender.com]
+
+examples :-
+(https://babysteps-app.onrender.com/doctors)
+(https://babysteps-app.onrender.com/appointments)
 
 ## Technologies Used
 
